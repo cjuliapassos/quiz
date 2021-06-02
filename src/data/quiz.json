@@ -1,0 +1,124 @@
+{ 
+    "data": [
+        {
+            "question": "“É a parte do processo que armazena o conteúdo dos registradores gerais da CPU e dos registradores específicos”. O conceito apresentado está relacionado a:",
+            "choices": ["Identificação", "Espaço de Endereçamento", "Estados do Processo", "Privilégios", "Contexto de Hardware"],
+            "answer": "Contexto de Hardware"
+        },
+        {
+            "question": "Dentro do conceito de Contexto de Software, temos a seguinte definição:“Temos as informações dos limites de recursos que o processo pode alocar”. A afirmação apresentada está ligada a:",
+            "choices": ["Identificação", "Privilégios", "Quotas", "Estado do Processo", "Contexto de Hardware"],
+            "answer": "Quotas"
+        },
+        {
+            "question": "Quais das afirmações abaixo estão corretas sobre o Espaço de Endereçamento?",
+            "choices": ["É quando o processo aguarda para ser executado.", "O contexto de Espaço de Endereçamento está relacionado a uma situação em que um processo em execução fica armazenado nos registradores do processador.", "No Espaço de Endereçamento temos as especificidades dos recursos que estão disponíveis para serem alocados de um processo.", "É a área da memória que pertence ao processo para armazenar instruções e dados para sua execução.", "é o grupo de mecanismos que permite aos processos transferir informação entre si. "],
+            "answer": "É a área da memória que pertence ao processo para armazenar instruções e dados para sua execução."
+        },
+        {
+            "question": "Os Estados de Processos são:",
+            "choices": ["Não submetido, criando, pronto, executando, aguardando evento externo, esperando, encerrando.", "Criando, pronto, executando, esperando, encerrando.", "Não submetido, executando, encerrando.", "Aguardando evento externo, criando, não submetido, encerrando.", "Pronto, aguardando evento externo, esperando. "],
+            "answer": "Não submetido, criando, pronto, executando, aguardando evento externo, esperando, encerrando."
+        },
+        {
+            "question": "A principal razão para a criação de um processo é:",
+            "choices": ["Inicialização do Sistema.", "Saída por erro.", "Cancelamento por um outro processo.", "Identificação do processo.", "Mudança de contexto."],
+            "answer": "Inicialização do Sistema."
+        },
+        {
+            "question": "Sobre a hierarquia de processos, é correto afirmar que: ",
+            "choices": ["Este tipo de organização dificulta a propagação de vírus no sistema operacional do usuário.", "A execução de um processo ocorre de maneira sequencial, ou seja, uma instrução depois da outra.", "O sistema operacional mantém a maior parte da informação sobre processos dentro de blocos chamados Blocos de Controle de Processos.", "Em um sistema multitarefa um processo passa por diferentes estados desde sua criação até o término.", "É a estrutura de dados que contém a informação acerca de um processo."],
+            "answer": "Quotas"
+        },
+        {
+            "question": "Sobre a Comunicação entre Processos, é correto afirmar que:",
+            "choices": ["Os processos podem terminar de forma voluntária ou involuntária.", "É o grupo de mecanismos que permite aos processos transferir informação entre si.", "Em alguns sistemas, quando um processo cria outro, o processo pai e o processo filho continuam associados.", "Atribui memória ao processo.", "É o método que permite vários processos compartilharem processadores e outros recursos."],
+            "answer": "É o grupo de mecanismos que permite aos processos transferir informação entre si."
+        },
+        {
+            "question": "Sobre o conceito de Processos, é correto afirmar que:",
+            "choices": ["É uma instância de um programa de computador que está sendo executada.", "Embora dois processos possam estar associados a um mesmo programa, são duas sequências de execução distintas.", "Os processos ficam em estruturas que os classificam conforme seu estado.", "São acedidos e mantidos por rotinas do sistema operacional."],
+            "answer": "É uma instância de um programa de computador que está sendo executada."
+        },
+        {
+            "question": "Em relação ao conceito de Interrupções, assinale a alternativa correta:",
+            "choices": ["É a tarefa de decidir qual processo irá ocupar o processador quando este ficar livre.", "É o programa executável, os dados e a pilha do programa, o descritor do programa, ponteiro da pilha, e outros registradores, e todas as outras informações necessárias para rodar o programa.", "são desvios na sequência de execução de um processo.", "É uma abstração de um programa sendo executado.", "é o conjunto de programas que gerenciam recursos, processadores, armazenamento, dispositivos de entrada e saída e dados da máquina e seus periféricos. "],
+            "answer": "são desvios na sequência de execução de um processo."
+        },
+        {
+            "question": "“É uma solicitação, gerada pelo usuário, para um serviço do sistema em particular, tal como entrada/saída, obter mais memória, ou comunicar com o operador do sistema.” Este conceito se refere a qual tipo de Interrupção?",
+            "choices": ["Interrupções SVC (chamada do supervisor).", "Interrupções de E/S.", "Interrupções externas.", "Interrupções de reinício.", "Interrupções de erro de programa."],
+            "answer": "Interrupções SVC (chamada do supervisor)."
+        },
+        {
+            "question": "As Interrupções podem ser classificadas como:",
+            "choices": ["Hardware e de reinício.", "Software e externas.", "Erro de programa e externas.", "Hardware e SVC.", "Hardware e Software."],
+            "answer": "Hardware e Software."
+        },
+        {
+            "question": "Quando ocorre uma interrupção no sistema, é correto afirmar: ",
+            "choices": ["A CPU ignora e continua o processo normalmente.", "A CPU interrompe o processamento do programa em execução e executa um pedaço de código.", "A CPU executa um pedaço de código e continua o processo normalmente.", "A CPU interrompe o processo e não executa nenhum código.", "Nenhuma das questões anteriores."],
+            "answer": "A CPU interrompe o processamento do programa em execução e executa um pedaço de código."
+        },
+        {
+            "question": "Sobre o suporte de hardware:",
+            "choices": ["Detecta uma interrupção e fecha o processo sem nenhum tipo de instrução.", "Detecta uma interrupção, aguarda instruções correntes e não salva o contexto da execução interrompida.", "Não oferece nenhum tipo de suporte.", "Detecta uma interrupção, aguarda instruções correntes, salva o contexto da execução interrompida e aciona o tratador.", "Detecta uma interrupção, aguarda instruções correntes e aciona o tratador."],
+            "answer": "Detecta uma interrupção, aguarda instruções correntes, salva o contexto da execução interrompida e aciona o tratador."
+        },
+        {
+            "question": "Assinale as alternativa sobre tipos de interrupções, e assinale a alternativa INCORRETA:",
+            "choices": ["É uma solicitação, gerada pelo usuário, para um serviço do sistema em particular, tal como entrada/saída, obter mais memória, ou comunicar com o operador do sistema. ", "São iniciadas pelo hardware de entrada/saída. Elas sinalizam à CPU que o status de um canal ou dispositivo foi alterado. ", "São causadas quando uma operação de E/S é concluída, quando um erro ocorre, ou quando um dispositivo fica pronto, etc.", "São causadas por vários eventos incluindo a expiração do quantum sobre uma interrupção do relógio, o pressionamento da tecla de interrupção no console pelo operador, ou o recebimento de um sinal de outro processador em um sistema multiprocessamento.", "Em alguns sistemas, quando um processo cria outro, o processo pai e o processo filho continuam associados."],
+            "answer": "Em alguns sistemas, quando um processo cria outro, o processo pai e o processo filho continuam associados."
+        },
+        {
+            "question": "“São causadas por mal funcionamento do hardware, como erro de paridade, de memória, etc”. Este conceito se refere ao tipo de interrupção:",
+            "choices": ["Interrupção por erro de máquina. ", "Interrupção de reinício.", "Interrupção externa.", "Interrupção de erro de programa.", "Nenhuma das questões anteriores."],
+            "answer": "Interrupção por erro de máquina. "
+        },
+        {
+            "question": "Sobre INTERRUPÇÕES, assinale a alternativa correta relacionada:",
+            "choices": ["Nem todas as operações envolvendo processos são controladas por uma parte do sistema operacional.", "Uma das mais importantes funções do núcleo é o processamento de interrupções.", "Os estados são “Não submetido, criando, pronto, executando, aguardando evento externo, esperando, encerrando.”", "É exigido quando um novo processo é criado.", "Tem como função gerenciar memória, gerenciador de E/S, gerenciador de arquivos."],
+            "answer": "Uma das mais importantes funções do núcleo é o processamento de interrupções."
+        },
+        {
+            "question": "Sobre níveis de escalonamento: \n(1) Determina qual processo pronto será atribuído à CPU quando essa torna-se disponível, e libera a CPU para este processo.\n(2) Algumas vezes chamado escalonamento de tarefas, determina a que tarefas será permitido competir ativamente pelos recursos do sistema.\n(3) Determina a quais processos será permitido competir pela CPU.\n(  ) Escalonamento de alto nível.\n(  ) Escalonamento de nível intermediário.\n(  ) Escalonamento de baixo nível. \nAssinale a alternativa que contém a sequência CORRETA, de cima pra baixo:",
+            "choices": ["2,3,1", "3,1,2", "1,3,2", "2,3,1", "1,2,3"],
+            "answer": "2,3,1"
+        },
+        {
+            "question": "O que é escalonamento de processos?",
+            "choices": ["é o registro do pc onde contém as instruções seguintes.", "é um arquivo que recebe uma chave de proteção diferente de outros.", "é um componente que manipula os dados da memória principal.", "é a tarefa de decidir qual processo irá ocupar o processador quando este ficar livre.", "é um processo que pode ocasionar perda do uso do processador"],
+            "answer": "é a tarefa de decidir qual processo irá ocupar o processador quando este ficar livre."
+        },
+        {
+            "question": "São objetivos de um algoritmo de escalonamento:",
+            "choices": ["vazão e tempo de retorno.", "vazão e utilização da CPU.", "garantir prioridades e maximizar o desempenho do sistema.", "cumprimento dos prazos e previsibilidade.", "utilização da CPU e proporcionalidade."],
+            "answer": "garantir prioridades e maximizar o desempenho do sistema."
+        },
+        {
+            "question": "Para alcançar seus objetivos um mecanismo de escalonamento deve considera:",
+            "choices": ["degradar em situações de carga pesada.", "registrar instruções.", "balancear o uso da CPU.", "minimizar o overhead.", "processos limitados pela CPU."],
+            "answer": "processos limitados pela CPU."
+        },
+        {
+            "question": "O escalonamento é absolutamente exigido quando:",
+            "choices": ["quando um valor é copiado da memória principal para um acumulador", "ocorre uma interrupção de E/S.", "A unidade de controle lógico aritmética assume o controle", "um processo é bloqueado em uma operação de E/S ou em um semáforo.", "o sistema é de tempo real."],
+            "answer": "um processo é bloqueado em uma operação de E/S ou em um semáforo."
+        },
+        {
+            "question": "Assinale a alternativa que corresponde ao algoritmo de escalonamento de processo preemptivo",
+            "choices": ["é um algoritmo onde o menor processo ganhará a CPU e atrás do mesmo formou uma fila de processos por ordem crescente de tempo de exibição.", "é um algoritmo que executa um processo como um todo do início ao fim não interrompendo o processo executado até ser finalizado.", "são algoritmos que permitem que um processo seja interrompido durante sua execução.", "é um algoritmo onde cada processo no estado pronto recebe uma prioridade.", "neste algoritmo é escolhido o processo que possua o menor tempo restante"],
+            "answer": "são algoritmos que permitem que um processo seja interrompido durante sua execução."
+        },
+        {
+            "question": "Sobre níveis de escalonamento quais desses suspendem e ativa ou resume processos para obter o balanceamento do sistema e ajudar a alcançar certas metas de performance.",
+            "choices":  ["De nível superior", "De baixo nível", "de nível intermediário", "de nível superior", "de alto nível"],
+            "answer": "De nível intermediário"
+        },
+        {
+            "question": "Qual nível de escalonamento realiza um dispatcher que processa muitas vezes por segundo, e portanto, deve residir na memória principal.",
+            "choices": ["De nível superior", "De baixo nível", "de nível intermediário", "de nível superior", "de alto nível"],
+            "answer": "De baixo nível"
+        }
+    ]
+}
